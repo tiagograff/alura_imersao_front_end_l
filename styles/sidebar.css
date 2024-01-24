@@ -120,11 +120,14 @@ h1 {
 }
 
 .cookies{
+    margin: 25px 20px;
+}
+
+.cookies a {
     font-size: 10px;
     font-weight: 500;
     color: #b3b3b3;
     text-decoration: none;
-    margin: 25px 20px
 }
 
 .language button {

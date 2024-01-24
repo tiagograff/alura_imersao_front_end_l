@@ -1,0 +1,40 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text__footer {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.footer__title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer__subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.button__footer button {
+    background-color: #fff;
+    color: #000;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
