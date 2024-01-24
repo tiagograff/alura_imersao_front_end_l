@@ -1,9 +1,10 @@
 body {
-    background-color: #000;
+    background-color: var(--color-black);
+    font-family: var(--font-dm-sans);
 }
 
 h1 {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .sidebar {
@@ -16,13 +17,13 @@ h1 {
 }
 
 .sidebar__navigation{
-    background-color: #121212;
+    background-color: var(--color-black2);
     border-radius: 8px;
     padding-top: 16px;
 }
 
 .sidebar__navigation .logo {
-    background-color: #121212;
+    background-color: var(--color-black2);
     display: flex;
     border-radius: 8px;
     padding: 0 16px 0 16px;
@@ -43,21 +44,19 @@ h1 {
 
 
 .sidebar nav ul li a{
-    color: #b3b3b3;
+    color: var(--color-white2);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
     word-spacing: 5px;
-    font-family: 'DM Sans', sans-serif;
 }
 
 .sidebar .library{
     margin-top: 10px;
     padding: 4px 8px;
-    font-family: 'DM Sans', sans-serif;
-    color: #b3b3b3;
+    color: var(--color-white2);
     border-radius: 8px;
-    background-color: #121212;
+    background-color: var(--color-black2);
     display: flex;
     flex-direction: column;
 }
@@ -70,9 +69,9 @@ h1 {
 
 .library__button{
     background-color: transparent;
-    color: #b3b3b3;
+    color: var(--color-white2);
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-montserrat);
     margin-right: 10px;
     text-align: center;
     font-weight: 700;
@@ -94,8 +93,7 @@ h1 {
 }
 
 .text {
-    color: #fff;
-    font-family: 'DM Sans', sans-serif;
+    color: var(--color-white);
 }
 
 .text.title {
@@ -109,12 +107,11 @@ h1 {
 }
 
 .playlist__button {
-    background-color: #fff;
+    background-color: var(--color-white);
     color: #000;
     border-radius: 100px;
     font-size: 12.8px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: var(--font-montserrat);    font-weight: 700;
     padding: 10px;
     width: 133px; 
 }
@@ -126,13 +123,13 @@ h1 {
 .cookies a {
     font-size: 10px;
     font-weight: 500;
-    color: #b3b3b3;
+    color: var(--color-white2);
     text-decoration: none;
 }
 
 .language button {
     background-color: transparent;
-    color: #fff;
+    color: var(--color-white);
     border: #878787 1px solid;
     border-radius: 100px;
     cursor: pointer;

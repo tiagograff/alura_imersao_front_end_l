@@ -7,14 +7,17 @@
 
     <link
       rel="shortcut icon"
-      href="./assets/icons/favicon.png"
+      href="./src/assets/icons/favicon.png"
       type="image/x-icon"
     />
 
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/sidebar.css" />
-    <link rel="stylesheet" href="./styles/library.css" />
-    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/var.css" />
+    <link rel="stylesheet" href="./src/styles/sidebar.css" />
+    <link rel="stylesheet" href="./src/styles/library.css" />
+    <link rel="stylesheet" href="./src/styles/main-content.css" />
+    <link rel="stylesheet" href="./src/styles/main-playlist.css" />
+    <link rel="stylesheet" href="./src/styles/footer.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,18 +48,20 @@
       <nav class="sidebar__navigation">
         <div class="logo">
           <a href=""
-            ><img src="./assets/icons/logo-spotify.png" alt="logo do spotify"
+            ><img
+              src="./src/assets/icons/logo-spotify.png"
+              alt="logo do spotify"
           /></a>
         </div>
         <ul>
           <li>
-            <a href="http://">
+            <a href="#">
               <span class="fa fa-home"></span>
               <span>Início</span>
             </a>
           </li>
           <li>
-            <a href="http://">
+            <a href="#">
               <span class="fa fa-search"></span>
               <span>Buscar</span>
             </a>
@@ -87,10 +92,53 @@
         </section>
       </div>
     </div>
+    <main>
+      <div class="main-container">
+        <nav class="header__navegation">
+          <nav class="navegation">
+            <button class="arrow-left" type="button">
+              <img
+                src="./src/assets/icons/small-left.png"
+                alt="seta esquerda"
+              />
+            </button>
+            <button class="arrow-right" type="button">
+              <img
+                src="./src/assets/icons/small-right.png"
+                alt="seta direita"
+              />
+            </button>
+            <div class="header__search">
+              <img src="./src/assets/icons/search.png" alt="" />
+              <input
+                id="search-input"
+                type="text"
+                maxlength="800"
+                placeholder="O que você quer ouvir?"
+              />
+            </div>
+          </nav>
+          <div class="header__login">
+            <button class="subscribe" type="button">Inscreva-se</button>
+            <button class="login" type="button">Entrar</button>
+          </div>
+        </nav>
+        <div class="playlist-container">
+          <div class="playlist__text">
+            <h1 id="greeting">Boa tarde</h1>
+            <h2 class="section">Navegar por todas as seções</h2>
+          </div>
+          <div class="playlist__section"></div>
+        </div>
+      </div>
+    </main>
     <footer class="footer">
       <div class="text__footer">
         <p class="footer__title">Testar o premium de graça</p>
-        <p class="footer__subtitle">Inscreva-se para curitr música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito</p>
+        <p class="footer__subtitle">
+          Inscreva-se para curitr música ilimitada e podcasts só com alguns
+          anúncios. Não precisa de cartão de crédito
+        </p>
       </div>
       <div class="button__footer">
         <button type="button">Inscreva-se grátis</button>

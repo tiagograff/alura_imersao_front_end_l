@@ -1,0 +1,24 @@
+.playlist-container{
+    background-color: var(--color-black2);
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.playlist__text{
+    margin: 24px;
+}
+
+#greeting{
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist__text .section{
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 700;
+}
